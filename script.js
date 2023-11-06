@@ -26,6 +26,6 @@ menuLinks.forEach((link) => {
     const pageLinks = document.createElement('a');
     pageLinks.href = link.href;
     pageLinks.textContent = link.text;
-    topMenuEl.appendChild(pageLinks)
+    topMenuEl.appendChild(pageLinks);
 }
 )
